@@ -16,36 +16,36 @@ int main(){
     Buku BukuFavorit;
     cout << "\tBuku Favorit Saya\n";
     //Mengisi data ke dalam variabel BukuFavorit untuk buku 1
-    BukuFavorit.judul_buku[0] = "Algoritma Pemrograman";
-    BukuFavorit.pengarang[0] = "Yunus Prademon";
-    BukuFavorit.penerbit[0] = "Gramedia Citra Raya";
-    BukuFavorit.tebal_halaman[0] = 30;
-    BukuFavorit.harga_buku[0] = 12.499;
+    BukuFavorit.judul_buku[0] = "Sebuah seni untuk bersikap bodo amat";
+    BukuFavorit.pengarang[0] = "Mark Manson";
+    BukuFavorit.penerbit[0] = "Gramedia";
+    BukuFavorit.tebal_halaman[0] = 100;
+    BukuFavorit.harga_buku[0] = 175.000;
 
     //Mengisi data ke dalam variabel BukuFavorit untuk buku 2
-    BukuFavorit.judul_buku[1] = "Machine Learning untuk Pemula";
-    BukuFavorit.pengarang[1] = "Romi Satria Wahono, M. Eng, Ph.D";
-    BukuFavorit.penerbit[1] = "Gramedia Center Jakarta";
-    BukuFavorit.tebal_halaman[1] = 100;
+    BukuFavorit.judul_buku[1] = "low of attraction";
+    BukuFavorit.pengarang[1] = "Rusdin S Rauf";
+    BukuFavorit.penerbit[1] = "Pameran buku sekolah";
+    BukuFavorit.tebal_halaman[1] = 300;
     BukuFavorit.harga_buku[1] = 149.999;
 
     //Mengisi data ke dalam variabel BukuFavorit untuk buku 3
-    BukuFavorit.judul_buku[2] = "Cinta Brontosaurus";
-    BukuFavorit.pengarang[2] = "Raditya Dika";
-    BukuFavorit.penerbit[2] = "Gramedia Center Bandung";
+    BukuFavorit.judul_buku[2] = "Bad habits";
+    BukuFavorit.pengarang[2] = "Sabrina ara";
+    BukuFavorit.penerbit[2] = "Gramedia";
     BukuFavorit.tebal_halaman[2] = 152;
-    BukuFavorit.harga_buku[2] = 69.999;
+    BukuFavorit.harga_buku[2] = 30.000;
 
     //Mengisi data ke dalam variabel BukuFavorit untuk buku 4
-    BukuFavorit.judul_buku[3] = "Mantappu Jiwa";
-    BukuFavorit.pengarang[3] = "Jerome Polin";
-    BukuFavorit.penerbit[3] = "Gramedia Center Surabaya";
+    BukuFavorit.judul_buku[3] = "loneliness";
+    BukuFavorit.pengarang[3] = "Alvin Syahrin";
+    BukuFavorit.penerbit[3] = "Gramedia ";
     BukuFavorit.tebal_halaman[3] = 228;
     BukuFavorit.harga_buku[3] = 29.999;
 
     //Mengisi data ke dalam variabel BukuFavorit untuk buku 5
-    BukuFavorit.judul_buku[4] = "Laskar Pelangi";
-    BukuFavorit.pengarang[4] = "Andrea Hirata";
+    BukuFavorit.judul_buku[4] = "hujan";
+    BukuFavorit.pengarang[4] = "Tere liye";
     BukuFavorit.penerbit[4] = "Gramedia Center Internasional";
     BukuFavorit.tebal_halaman[4] = 529;
     BukuFavorit.harga_buku[4] = 74.999;
