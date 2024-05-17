@@ -236,9 +236,6 @@ Setiap array memiliki elemen yang sesuai dengan atribut buku, seperti 'judul_buk
 
 Terakhir, setelah mengisi data, kita menggunakan perintah 'cout' untuk menampilkan informasi tentang setiap buku favorit.
 
-### Full Code Screenshot
-ss
-
 ### 2. Apa yang terjadi jika deklarasi variabel struct yang dibuat pada tugas guided I, berjenis Array. Bagaimana cara mengisi data dan menampilkannya ?
 
 ```C++
@@ -273,18 +270,19 @@ int main(){
 
     Buku MyBook;
     //Mengisi data ke dalam variabel MyBook
-    MyBook.judul_buku[0] = "Algoritma Pemrograman";
-    MyBook.pengarang[0] = "Yunus Prademon";
-    MyBook.penerbit[0] = "Gramedia Citra Raya";
-    MyBook.tebal_halaman[0] = 30;
-    MyBook.harga_buku[0] = 12.499;
+    //Mengisi data ke dalam variabel MyBook untuk buku 1
+    MyBook.judul_buku[0] = "Sebuah seni untuk bersikap bodo amat";
+    MyBook.pengarang[0] = "Mark Manson";
+    MyBook.penerbit[0] = "Gramedia";
+    MyBook.tebal_halaman[0] = 100;
+    MyBook.harga_buku[0] = 175.000;
 
     //Mengisi data ke dalam variabel MyBook
-    MyBook.judul_buku[1] = "Indo menang";
-    MyBook.pengarang[1] = "Oel";
+    MyBook.judul_buku[1] = "Perjalanan Saya bersama Grahen";
+    MyBook.pengarang[1] = "Grahen";
     MyBook.penerbit[1] = "ITTP";
-    MyBook.tebal_halaman[1] = 100;
-    MyBook.harga_buku[1] = 100.999;
+    MyBook.tebal_halaman[1] = 2005;
+    MyBook.harga_buku[1] = 7.000;
 
     //Menampilkan data
     for (int i=0; i < 2; i++){
@@ -299,7 +297,7 @@ int main(){
 }
 ```
 #### Output:
-ss
+![Screenshot (35)](https://github.com/grahenmaryamrb/Praktikum-Struktur-Data-Assignment-5/assets/168741067/bb6f479d-57f2-4d06-84de-9aa3a213916a)
 ### Penjelasan
 Program di atas merupakan contoh program berdasarkan pertanyaan "Apa yang terjadi jika deklarasi variabel struct yang dibuat pada tugas guided I, berjenis Array. Bagaimana cara mengisi data dan menampilkannya?"
 
@@ -318,8 +316,6 @@ Program dimulai dengan memanggil library 'iostream' untuk I/O, library 'string' 
 
 Terakhir, setelah mengisi data, kita menggunakan perintah 'cout' untuk menampilkan informasi tentang setiap buku favorit. Dengan menggunakan array dari struktur Buku, kita dapat mengelola dan memanipulasi kumpulan buku dengan cara yang lebih efisien dalam program. Jika ingin menyimpan lebih banyak buku, kita hanya perlu menyesuaikan ukuran array sesuai dengan jumlah buku yang ingin kita simpan. Misalnya, jika ingin menyimpan tiga buku, kita dapat mendeklarasikan array Buku daftar_buku[3]; dan kemudian menggunakan loop hanya untuk tiga elemen.
 
-### Full Code Screenshot
-ss
 ## Kesimpulan
 #### Hasil praktikum: 
 Pada kesempatan praktikum ini, saya belajar tipe data bentukan yang berisi kumpulan variabel-variabel yang bernaung dalam satu nama yang sama dan memiliki kaitan satu sama lain yang kita sebut dengan struct. Berbeda dengan array hanya berupa kumpulan variabel yang bertipe data sama, struct bisa memiliki variabel-variabel yang bertipe data sama atau berbeda, bahkan bisa menyimpan variabel yang bertipe data array atau struct itu sendiri.
