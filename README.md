@@ -4,7 +4,7 @@
 
 ## Dasar Teori
 ### Variabel
-Dalam pemrograman komputer, variabel digunakan untuk menyimpan informasi untuk dijadikan referensi dan digunakan oleh program. Variabel terbagi menjadi 2 jenis yakni variabel lokal dan global.
+Dalam pemrograman komputer,Variabel adalah sebuah tempat menyimpan sebuah nilai. Tipe data adalah jenis nilai yang akan tersimpan dalam variabel. Variabel terbagi menjadi 2 jenis yakni variabel lokal dan global.
 Variabel lokal: variabel lokal adalah variabel yang hanya diakses oleh subprogram yang memilikinya.
 Variabel global: variabel global adalah variabel yang dapat diakses di seluruh subprogram manapun.
 Subprogram adalah bagian kecil hasil pembagian program dalam konsep prosedural programming [1].
