@@ -24,18 +24,19 @@ int main(){
 
     Buku MyBook;
     //Mengisi data ke dalam variabel MyBook
-    MyBook.judul_buku[0] = "Algoritma Pemrograman";
-    MyBook.pengarang[0] = "Yunus Prademon";
-    MyBook.penerbit[0] = "Gramedia Citra Raya";
-    MyBook.tebal_halaman[0] = 30;
-    MyBook.harga_buku[0] = 12.499;
+    //Mengisi data ke dalam variabel MyBook untuk buku 1
+    MyBook.judul_buku[0] = "Sebuah seni untuk bersikap bodo amat";
+    MyBook.pengarang[0] = "Mark Manson";
+    MyBook.penerbit[0] = "Gramedia";
+    MyBook.tebal_halaman[0] = 100;
+    MyBook.harga_buku[0] = 175.000;
 
     //Mengisi data ke dalam variabel MyBook
-    MyBook.judul_buku[1] = "Indo menang";
-    MyBook.pengarang[1] = "Oel";
+    MyBook.judul_buku[1] = "Perjalanan Saya bersama Grahen";
+    MyBook.pengarang[1] = "Grahen";
     MyBook.penerbit[1] = "ITTP";
-    MyBook.tebal_halaman[1] = 100;
-    MyBook.harga_buku[1] = 100.999;
+    MyBook.tebal_halaman[1] = 2005;
+    MyBook.harga_buku[1] = 7.000;
 
     //Menampilkan data
     for (int i=0; i < 2; i++){
